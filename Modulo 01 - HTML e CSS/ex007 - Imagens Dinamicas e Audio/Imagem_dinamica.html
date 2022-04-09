@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir as imagens em diferentes dispositivos ou o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/pequena.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="imagens/media.jpg" type="image/jpg">
+        <img src="imagens/grande.png" alt="Imagem Flexível">
+    </picture>
+
+    <h1>Reproduzir Áudio</h1>
+   <audio src="midia/videoplayback.mp4" controls></audio>
+
+   <ul>
+       <li><a href="midia/videoplayback.mp4" download="video/mp4">Baixe aqui seu áudio</a></li>
+   </ul>
+
+</body>
+</html>

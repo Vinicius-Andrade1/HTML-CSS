@@ -1,0 +1,119 @@
+@import "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+:root{
+    --cor_principal: black;
+    --cor_principal_lower: rgba(0, 0, 0, 0.637);
+    --cor_secundaria: rgb(65, 65, 65);
+    
+
+    --fonte-amor:'Beau Rivage', cursive;
+    --fonte-poesia: 'Sriracha', cursive;
+}
+
+html, body{
+    margin: 0px;
+    min-height: 100%;
+    background-color: darkgrey;
+    text-align: justify;
+
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    
+}
+
+header > h1{
+    color: white;
+    font-size: 5.5vw;
+    font-family: var(--fonte-amor);
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+p#p_header{
+    color: white;
+    font-family: var();
+    font-size: 1.6vw;
+    padding: 10px;
+}
+
+a#vinicoilas{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-weight: 600;
+}
+
+a#vinicoilas:hover{
+    color: red;
+    transition: 0.8s;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte-poesia);
+    font-size: 1.7vw;
+}
+
+section.padrao{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: var(--cor_secundaria);
+    color: white;
+    box-shadow: inset 3px 3px 10px black;
+    background-attachment: fixed;
+}
+
+section.imagem > p{
+    background-color: var(--cor_principal_lower);
+    text-shadow: 1px 1px 1px black;
+    padding: 20px;
+    display: inline-block;
+}
+
+section#img_casal{
+    background-image: url(imagens/lucuxoeisoilas.png);
+    background-size: cover;
+    background-position: center left;
+}
+
+section#img_passarinho{
+    background-image: url(imagens/passarinhos.jpg);
+    background-size: cover;
+    background-position: center left;
+}
+
+section#img_lucuxo{
+    background-image: url(imagens/homi.jpg);
+    background-size: cover;
+    background-position: center ;
+}
+
+footer{
+    background-color: var(--cor_principal);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+p#p_footer{
+    color: white;
+    font-size: 1.4vw;
+    padding: 10px;
+}
